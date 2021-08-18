@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CALENDER</title>
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+</head>
+<body>
+	<p></p>
+	<p></p>
+	<ol>
+		<li>item</li>
+		<li>item</li>
+		<li>item</li>
+		<li>item</li>
+		<li>item</li>
+		<li>item</li>
+	</ol>
+
+	<script type="text/javascript">
+		$("p").html("HELLO")
+		$("p+p").html("World")
+		$("li:even").html("i Am eVEN")
+		$("li:last").html("i Am last").wrapInner("<strong/>")
+
+	</script>
+</body>
+</html>
